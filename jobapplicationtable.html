@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <form method="POST" enctype="multipart/form-data">
+            <table bgcolor="turquoise" width="50%" border="1" cellspacing="30">
+                <tr bgcolor="lightcyan">
+                    <td height="30" colspan="4" align="center">
+                     <strong> Job Application</strong>
+                    </td>
+                </tr>
+                <tr align="center" bgcolor="lightcyan">
+                    <td align="center">
+                        <button > Full Name* </button>
+                    </td>
+                    <td > <input type="text" name="txtfirstname" required> <br>
+                        <em>First name</em></td>
+                    <td > <input type="text" name="txtlastname" required> <br>
+                        <em>Last name</em> </td>
+                </tr>
+
+                <tr bgcolor="lightcyan">
+                    <td align="center" >
+                        <button > Email ID * </button>                 
+                    </td>
+                    <td colspan="2" >
+                        &nbsp;&nbsp;<input type="email" name="txtmail" required> <br>
+                        <!-- <textarea cols="70" rows="2"> </textarea><br> -->
+                        <em>&nbsp;&nbsp;demo@email.com </em>
+                    </td>
+                </tr>
+
+                <tr align="center" bgcolor="lightcyan">
+                    <td align="center">
+                        <button > Phone Number* </button>
+                    </td>
+                    <td > <input type="text" name="txtfirstname" required> <br>
+                        <em>Area Code</em></td>
+                    <td > <input type="text" name="txtlastname" required> <br>
+                        <em>Phone Number</em> </td>              
+                </tr>
+
+                <tr bgcolor="lightcyan">
+                    <td align="center" >
+                        <button > What position are you applying for?* </button>
+                    </td>
+                    <td colspan="2" align="left"> &nbsp;&nbsp; <input type="text" name="txtposition" required> <br>
+                        <em> &nbsp;&nbsp; &nbsp;&nbsp;Position</em>
+                    </td>
+                </tr>
+
+                <tr bgcolor="lightcyan">
+                    <td align="center">
+                        <button > Available Start Date* </button>
+                    </td>
+                    <td colspan="2" align="left"> &nbsp;&nbsp; <input type="date" name="txtpdate" required> <br>
+                        <em>  &nbsp;&nbsp;Date</em>
+                    </td>
+                </tr>
+
+
+                <tr bgcolor="lightcyan">
+                    <td align="center">
+                        <button > What is your current employment status?* </button>
+                    </td>
+                    <td colspan="2">
+                        <table>
+                            <tr> 
+                                <td>
+                                 <input type="radio" name="rdemployed" checked > Employed                          
+                                </td>
+                                <td>
+                                    <input type="radio" name="rdemployed"> Unemployed                          
+                                </td>
+                            </tr>
+                            <tr> 
+                                <td>
+                                 <input type="radio" name="rdemployed"> Self-Employed                          
+                                </td>
+                                <td>
+                                    <input type="radio" name="rdemployed"> Student                          
+                                </td>
+                            </tr>
+                        </table>
+                    </td>        
+                </tr>
+
+                <tr bgcolor="lightcyan">
+                    <td align="center">
+                        <button > How do you prefer to submit your resume?* </button>
+                    </td>
+                    <td colspan="2">
+                        <input type="radio" name="rduploadfl" checked> Upload File<br>
+                        <input type="radio" name="rduploadfl"> Provide URL
+                        
+                    </td>
+                </tr>
+
+
+                <tr bgcolor="lightcyan">
+                    <td align="center">
+                        <button > Optional Upload </button>
+                    </td>
+                    <td colspan="2">
+                        <input type="file" name="txtfile">                        
+                    </td>
+                </tr>
+
+                <tr bgcolor="lightcyan">
+                    <td align="center">
+                        <button > Optional Upload </button>
+                    </td>
+                    <td colspan="2">
+                        <input type="file" name="txtfile">                        
+                    </td>
+                </tr>
+
+                <tr bgcolor="white">
+                    <td colspan="3" align="center">
+                        <button type="submit">
+                            <img src="images/submit.png" width="100" height="30">
+                        </button>
+
+                        <button type="reset">
+                            <img src="images/reset.png" width="100" height="30">
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
