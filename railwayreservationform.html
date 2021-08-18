@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+
+    <body >
+        <form >
+            
+            <table width="50%" align="center" cellpadding="10" border="1">
+                <tr>
+                    <td colspan="2" align="center">
+                        <strong><u> RAILWAY TICKET RESERVATION FORM </u></strong>
+                    </td>
+                </tr>
+                <!--Personal Details-->
+                <tr>
+                    <td width="50%">First Name <input type="text" name="txtfstname" ></td>
+                    <td width="50%"> Last Name <input type="text" name="txtlstname"></td></tr>
+                <tr>
+                    <td width="50%">Phone <input type="text" name="txtphone"></td>
+                    <td width="50%">Email ID <input type="email" name="txtemail"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        Address <textarea rows="2" cols="23"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%"> City <input type="text" name="txtcity"> </td>
+                    <td width="50%"> Zipcode<input type="text" name="txtzip"> </td>
+                </tr>
+
+                <!--Ticket Details-->
+                <tr>
+                    <td colspan="2" bgcolor="lightgreen">
+                        <table width="100%" border="1">
+                            <tr>        <!--Heading-->
+                                <td width="10%"> 
+                                    S. No.
+                                </td>
+                                <td width="25%"> 
+                                    First Name
+                                </td>
+                                <td width="25%"> 
+                                   Last Name
+                                </td><td width="5%"> 
+                                    Age
+                                </td><td width="10%"> 
+                                    Gender
+                                </td><td width="10%"> 
+                                    ID Proof
+                                </td>
+                            </tr>
+                            <tr >    <!--1st row-->
+                                <td > 
+                                   1.
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtfstname">
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtlstname">
+                                </td><td > 
+                                    <input type="number" name="txtage">
+                                </td><td > 
+                                    <input type="radio"  name="fstgen" value="male">M 
+                                    <input type="radio"  name="fstgen" value="female">F
+                                </td><td > 
+                                    <input type="text" name="txtlstname">
+
+                                </td>
+                            </tr>
+
+
+                            <tr >    <!--2nd row-->
+                                <td > 
+                                   2.
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtfstname">
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtlstname">
+                                </td><td > 
+                                    <input type="number" name="txtage">
+                                </td><td > 
+                                    <input type="radio"  name="secgen" value="male">M 
+                                    <input type="radio"  name="secgen" value="female">F
+                                </td><td > 
+                                    <input type="text" name="txtlstname">
+
+                                </td>
+                            </tr>
+                          
+                            <tr >    <!--3rd row-->
+                                <td > 
+                                   3.
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtfstname">
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtlstname">
+                                </td><td > 
+                                    <input type="number" name="txtage">
+                                </td><td > 
+                                    <input type="radio"  name="thdgen" value="male">M 
+                                    <input type="radio"  name="thdgen" value="female">F
+                                </td><td > 
+                                    <input type="text" name="txtlstname">
+
+                                </td>
+                            </tr>
+
+                            <tr >    <!--4th row-->
+                                <td > 
+                                   4.
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtfstname">
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtlstname">
+                                </td><td > 
+                                    <input type="number" name="txtage">
+                                </td><td > 
+                                    <input type="radio"  name="frtgen" value="male">M 
+                                    <input type="radio"  name="frtgen" value="female">F
+                                </td><td > 
+                                    <input type="text" name="txtlstname">
+
+                                </td>
+                            </tr>
+
+
+                            <tr >    <!--5th row-->
+                                <td > 
+                                   5.
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtfstname">
+                                </td>
+                                <td > 
+                                    <input type="text" name="txtlstname">
+                                </td><td > 
+                                    <input type="number" name="txtage">
+                                </td><td > 
+                                    <input type="radio"  name="fftgen" value="male">M 
+                                    <input type="radio"  name="fftgen" value="female">F
+                                </td><td > 
+                                    <input type="text" name="txtlstname">
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                     <p> <strong>  Do you need any railway station transfer:</strong>
+                        <input type="checkbox" name="railstntrf" value="arrival"> Arrival
+                        <input type="checkbox" name="railstntrf" value="departure"> Departure
+                        <input type="checkbox" name="railstntrf" value="both"> Both ways
+                    </p>
+                    <p>
+                        <strong> Arrival details:</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                        Train Number <input type="text" name="txtartrn">
+                        Date <input type="date" name="txtardt"> 
+                        Time <input type="time" name="txtartime">
+                    </p>
+                    <p>
+                       <strong> Departure details:</strong>
+                        Train Number <input type="text" name="txtdptrn">
+                        Date <input type="date" name="txtdpdt"> 
+                        Time <input type="time" name="txtdptime">
+                    </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <table bgcolor="lightblue" width="100%">
+                            <tr>
+                                <td >
+                                    <strong> PAYMENT DETAILS </strong>
+                                </td>
+                                <tr>
+                                    <td>
+                                        Mode of payment 
+                                        <input type="checkbox" name="chkChq"> Cheque
+                                        <input type="checkbox" name="chkdd"> DD 
+                                    </td>
+                                    <td>
+                                        DD/ Cheque Number 
+                                        <input type="text" name="txtnum">
+                                    </td>
+                                </tr>    
+                                <tr>
+                                    <td>
+                                        Amount
+                                        <input type="text" name="txtamount">
+                                       
+                                    </td>
+
+                                    <td>
+                                        Amount in words
+                                        <input type="text" name="txtamntwords">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        Bank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="text" name="txtbank">
+                                    </td>
+                                    <td>
+                                        Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="date" name="txtdt">
+                                    </td>
+                                </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">
+                            <img src="images/submit.png" width="100" height="30">
+                        </button>
+            
+                        <button type="reset">
+                            <img src="images/reset.png" width="100" height="30">
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+<a href="index.html"> Back to main menu</a>
+
+    </body>
+</html>
